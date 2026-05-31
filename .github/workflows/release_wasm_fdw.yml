@@ -45,7 +45,7 @@ jobs:
           cargo component build --release --target wasm32-unknown-unknown
 
       - name: Calculate Wasm file checksum
-        uses: jmgilman/actions-generate-checksum@d4c0e5a3805ae266f169d05a2542c66968d5ec83 # v1.0.1
+        uses: jmgilman/actions-generate-checksum@3ea6dc9bf8eecf28e2ecc982fab683484a1a8561 # v1.0.1
         with:
           method: sha256
           output: checksum.txt
